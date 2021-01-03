@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">firebase test</string>
+
+    <array name="generes">
+        <item>Rock</item>
+        <item>sufi</item>
+        <item>folk</item>
+        <item>pop</item>
+
+    </array>
+</resources>
