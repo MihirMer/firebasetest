@@ -89,7 +89,7 @@ public class AddTrackActivity extends AppCompatActivity {
 
     private void saveTrack() {
         String trackName = editText.getText().toString().trim();
-        int rating = seekBar.getProgress();
+        String rating = Integer.toString(seekBar.getProgress());
         if(!TextUtils.isEmpty(trackName)){
             String id = databaseTracks.push().getKey();
             Track track = new Track(id, trackName,rating);

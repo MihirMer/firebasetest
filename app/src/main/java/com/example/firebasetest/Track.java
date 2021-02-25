@@ -4,12 +4,12 @@ public class Track {
 
     private String trackId;
     private String trackName;
-    private int trackRating;
+    private String trackRating;
 
     public Track() {
     }
 
-    public Track(String trackId, String trackName, int trackRating) {
+    public Track(String trackId, String trackName, String trackRating) {
         this.trackId = trackId;
         this.trackName = trackName;
         this.trackRating = trackRating;
@@ -24,7 +24,7 @@ public class Track {
     }
 
     public String getTrackRating() {
-        return Integer.toString(trackRating);
+        return (trackRating);
     }
 
 }
